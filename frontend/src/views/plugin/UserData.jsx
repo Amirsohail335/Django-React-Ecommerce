@@ -1,6 +1,8 @@
 import React from 'react';
 import Cookies from 'js-cookie';
-import jwtDecode from 'jwt-decode';
+// import jwtDecode from 'jwt-decode';
+import { jwtDecode } from 'jwt-decode';
+
 
 function UserData() {
     // Retrieve the access token and refresh token from browser cookies
